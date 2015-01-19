@@ -1,15 +1,15 @@
 $(function() {
   setTimeout(function() {
-    $('#logo, h3').fadeIn(700, function(){
-      setTimeout(fadeLinks, 300);
+    $('#subtitle, h2').fadeIn(1000, function(){
+      setTimeout(fadeProjects, 1300);
     });
   },125);
 });
 
-function fadeLinks() {
-  var links = $('#links a');
+function fadeProjects() {
+  var projects = $('#projects');
 
-  $(links).each(function(i){
+  $(projects).each(function(i){
     var $self = $(this);
     setTimeout(function() {
       $self.show();
