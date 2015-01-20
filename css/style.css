@@ -80,7 +80,7 @@ nav ul li.website-name a {
 }
 
 .description {
-  margin-top: 30%;
+  margin-top: 28%;
 }
 
 .description h2 {
@@ -104,9 +104,10 @@ nav ul li.website-name a {
 #footer {
   position: fixed;
   bottom: 0px;
-  float: right;
-  margin-bottom: 2.2em;
-  display: block;;;
+  display: block;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 #footer ul{
@@ -123,3 +124,8 @@ nav ul li.website-name a {
 #footer li a {
   color: #BBB;
 }
+
+#content-wrapper.footer-inside {
+  float: right;
+}
+
