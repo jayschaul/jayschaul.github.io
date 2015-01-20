@@ -71,11 +71,14 @@
 		line-height: 24px;
 		color: #919191;
 		background: #f9f9f9;
-		padding: 4% 8% 4% 8%;
-  	margin: 0 auto;
-  	height: 100%;
-  	max-width: 1000px;
 	}
+
+#content-wrapper {
+	padding: 4% 8% 4% 8%;
+  margin: 0 auto;
+ 	height: 100%;
+ 	max-width: 1000px;
+}
 
 
 nav {
