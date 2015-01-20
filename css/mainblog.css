@@ -77,6 +77,7 @@
   	max-width: 1000px;
 	}
 
+
 nav {
   position: fixed;
   top: 0;
@@ -136,7 +137,7 @@ nav ul li.website-name a {
 	#header h1 a {
 		color: #666;
 	font: 42px calluna-1,calluna-2,serif;  -webkit-transition: color .2s ease-in; /*safari and chrome */
- -o-transition: color .2s ease-in; border-bottom: 1px solid #f9f9f9;}
+ -o-transition: color .2s ease-in; border-bottom: 1px solid #f9f9f9; margin-top: 6em;}
 			
 	#header h1 a:hover { color: #ec7d2c;
 }
