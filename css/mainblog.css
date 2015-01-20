@@ -66,7 +66,7 @@
 		font-size: 13px; }
 	
 	body {
-		font-family: "calluna",serif;
+		font-family: "freight-text-pro",sans-serif;
 		font-size: 15px;
 		line-height: 24px;
 		color: #919191;
@@ -136,14 +136,14 @@ nav ul li.website-name a {
 	
 	#header h1 a {
 		color: #666;
-	font: 42px calluna-1,calluna-2,serif;  -webkit-transition: color .2s ease-in; /*safari and chrome */
+	font: 42px "freight-text-pro",sans-serif;  -webkit-transition: color .2s ease-in; /*safari and chrome */
  -o-transition: color .2s ease-in; border-bottom: 1px solid #f9f9f9; margin-top: 6em;}
 			
 	#header h1 a:hover { color: #ec7d2c;
 }
 		
 	#description {
-	font: 10px pragmatica-web-condensed-1,pragmatica-web-condensed-2,sans-serif; text-transform:uppercase; font-weight: 400; letter-spacing: 1px;
+	font: 10px "franklin-gothic-urw",sans-serif; text-transform:uppercase; font-weight: 400; letter-spacing: 1px;
 		color: #919191;
 	margin: -46px 0 -25px 150px;
 }
@@ -208,7 +208,7 @@ nav ul li.website-name a {
 		
 	.postmeta {
 		margin-top: 10px; text-decoration: none; border-bottom: 1px solid #f9f9f9;
-		font: 10px pragmatica-web-condensed-1,pragmatica-web-condensed-2,sans-serif; text-transform:uppercase;
+		font: 10px "franklin-gothic-urw",sans-serif; text-transform:uppercase;
 }
 		
 	.postmeta a, .postmeta a:link, .postmeta a:visited {
@@ -282,7 +282,7 @@ nav ul li.website-name a {
 		
 	.text h2, .conversation h2 {
 		color: #666;
-		font: normal 22px calluna-1,calluna-2,serif;
+		font: normal 22px "freight-text-pro",sans-serif;
 		margin: 0 0 1.5em 0; }
 		
 	.text p, .audio p {
@@ -364,7 +364,7 @@ nav ul li.website-name a {
 	
 	#footer {
 		float: right;
-	font: 9px pragmatica-web-condensed-1,pragmatica-web-condensed-2,sans-serif; text-transform:uppercase;
+	font: 9px "franklin-gothic-urw",sans-serif; text-transform:uppercase;
 	margin-right: 0;
 	margin-left: 0;
 	margin-bottom: 7em;
@@ -406,7 +406,7 @@ nav ul li.website-name a {
 
 
 .personallinks a {
-	font: 10px/1.6 pragmatica-web-condensed-1,pragmatica-web-condensed-2,sans-serif;
+	font: 10px/1.6 "franklin-gothic-urw",sans-serif;
 	text-transform: uppercase; letter-spacing: 1px; text-decoration: none ;
 	border-bottom-width: 1px;
 	border-bottom-color: #f9f9f9;
