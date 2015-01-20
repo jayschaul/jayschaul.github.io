@@ -103,11 +103,13 @@ nav ul li {
 nav ul li a {
   font-size: 1em;
   color: black;
+  border-bottom: 0px;
+  text-decoration: underline;
 }
 
 nav ul li.website-name a {
   text-decoration: none;
-  font-weight: 600;;
+  font-weight: 600;
 }
 		
 		
