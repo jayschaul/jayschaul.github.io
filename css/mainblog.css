@@ -71,8 +71,41 @@
 		line-height: 24px;
 		color: #919191;
 		background: #f9f9f9;
-		padding: 60px 60px 60px 100px;
-		width: 660px; }
+		padding: 4% 8% 4% 8%;
+  	margin: 0 auto;
+  	height: 100%;
+  	max-width: 1000px;
+	}
+
+nav {
+  position: fixed;
+  top: 0;
+}
+
+nav .navigation {
+  float: left;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 3em;
+}
+
+nav ul li {
+  padding-right: 1em;
+  float: left;
+}
+
+nav ul li a {
+  font-size: 1em;
+  color: black;
+}
+
+nav ul li.website-name a {
+  text-decoration: none;
+  font-weight: 600;;
+}
 		
 		
 		
