@@ -133,11 +133,15 @@ nav ul li.website-name a {
 	
 	#header {
 		margin: 0 0 7em 0; }
+
+	#header h1 {
+		margin-top: 6em;
+	}
 	
 	#header h1 a {
 		color: #666;
 	font: 42px "freight-text-pro",sans-serif;  -webkit-transition: color .2s ease-in; /*safari and chrome */
- -o-transition: color .2s ease-in; border-bottom: 1px solid #f9f9f9; margin-top: 6em;}
+ -o-transition: color .2s ease-in; border-bottom: 1px solid #f9f9f9;}
 			
 	#header h1 a:hover { color: #ec7d2c;
 }
