@@ -114,6 +114,7 @@ nav ul li.website-name a {
   list-style: none;
   padding: 0;
   margin: 0;
+  float: right;
 }
 
 #footer li {
@@ -121,11 +122,15 @@ nav ul li.website-name a {
   padding-right: 1em;
 }
 
+#footer li:last-child {
+  padding-right: 0em;
+}
+
 #footer li a {
   color: #BBB;
 }
 
 #content-wrapper.footer-inside {
-  float: right;
+  margin:0 auto;
 }
 
