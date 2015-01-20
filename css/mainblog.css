@@ -96,7 +96,8 @@ nav ul {
 nav ul li {
   padding-right: 1em;
   float: left;
-  font-family: "franklin-gothic-urw",sans-serif;;
+  font-family: "franklin-gothic-urw",sans-serif;
+  border-bottom: 0;
 }
 
 nav ul li a {
