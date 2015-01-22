@@ -92,8 +92,7 @@ nav ul li.website-name a {
 }
 
 .projects-wrapper {
-  margin-top: 30%;
-  margin-bottom: 30%;
+  margin-top: 14.4em;
 }
 
 .project {
@@ -148,6 +147,25 @@ nav ul li.website-name a {
     padding-bottom: 9em;
   }
 
+  .projects-wrapper {
+    margin-top: 30%;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  li.website-name {
+    width:100%;
+    padding-bottom: 1em;
+  }
+  #footer {
+    position: relative;
+  }
+
+  #footer .footer-inside {
+    padding: 0px;
+    padding-bottom: 6em;
+  }
 }
 
 
