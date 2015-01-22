@@ -18,7 +18,7 @@ html, body {
 }
 
 #content-wrapper {
-  padding: 4% 8% 4% 8%;
+  padding: 1em;
   margin: 0 auto;
   height: 100%;
   max-width: 1000px;
@@ -35,13 +35,16 @@ html, body {
   display: none;
 }
 
+#projects {
+  padding-bottom: 13em;
+}
+
 a, a:visited, a:hover {
   color: black;
 }
 
 h1 {
-  margin-bottom: 0em;
-  
+  margin-bottom: 0.2em;
 }
 
 p {
@@ -76,7 +79,7 @@ nav ul li a {
 
 nav ul li.website-name a {
   text-decoration: none;
-  font-weight: 600;;
+  font-weight: 600;
 }
 
 .description {
@@ -132,5 +135,20 @@ nav ul li.website-name a {
 
 #content-wrapper.footer-inside {
   margin:0 auto;
+  padding: 3.4em 1em;
 }
+
+@media screen and (max-width: 600px) {
+
+  .description {
+    margin-top: 50%;
+  }
+
+  #projects {
+    padding-bottom: 9em;
+  }
+
+}
+
+
 
