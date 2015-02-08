@@ -96,11 +96,11 @@ nav ul li.website-name a {
 }
 
 .project {
-  margin-top: 4em;
+  padding-top: 4em;
 }
 
 .project:first-child {
-  margin-top: 0;
+  padding-top: 0em;
 }
 
 #footer {
