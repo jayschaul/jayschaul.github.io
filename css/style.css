@@ -43,6 +43,10 @@ a, a:visited, a:hover {
   color: black;
 }
 
+a.active {
+  font-style: italic;
+}
+
 h2 {
   margin-bottom: 0.2em;
   font-size: 1.7em;
@@ -164,12 +168,6 @@ nav ul li.website-name a {
   }
   nav ul {
     margin-top: 1.1em;
-  }
-  .description {
-    margin-top: 50%;
-  }
-  .projects-wrapper {
-    margin-top: 6em;
   }
   #footer {
     position: relative;
