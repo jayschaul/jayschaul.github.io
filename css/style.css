@@ -97,6 +97,7 @@ nav ul li.website-name a {
   -moz-transition:color .5s ease-in;
   -o-transition:color .5s ease-in;
   -webkit-transition:color .5s ease-in;
+  -webkit-transform: translateZ(0);
 }
 
 .projects-wrapper {
