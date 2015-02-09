@@ -29,11 +29,10 @@ html, body {
   width: 100%;
 }
 
-#subtitle, 
-#projects
+/*#subtitle
 {
   display: none;
-}
+}*/
 
 #projects {
   padding-bottom: 13em;
@@ -94,6 +93,10 @@ nav ul li.website-name a {
 .description h2 {
   font-size: 2em;
   font-weight: 400;
+  color: white;
+  -moz-transition:color .5s ease-in;
+  -o-transition:color .5s ease-in;
+  -webkit-transition:color .5s ease-in;
 }
 
 .projects-wrapper {
@@ -158,6 +161,16 @@ nav ul li.website-name a {
 
 }
 */
+
+.description.fadingin h2 {
+  color: black;
+  -webkit-transition-delay: 0.3s;
+  -moz-transition-delay: 0.3s;
+  -o-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+
 @media screen and (max-width: 600px) {
   li.website-name {
     width:100%;
@@ -181,11 +194,6 @@ nav ul li.website-name a {
   #footer .footer-inside {
     padding: 0px;
     padding-bottom: 6em;
-  }
-  #subtitle, 
-  #projects 
-  {
-    display: block;
   }
 }
 
