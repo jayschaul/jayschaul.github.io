@@ -187,6 +187,13 @@ nav ul li.website-name a {
   .description {
     margin-top: 50%;
   }
+  .description.fadingin h2 {
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+    -webkit-transform: translateZ(0);
+  }
   .projects-wrapper {
     margin-top: 6em;
   }
@@ -205,6 +212,13 @@ nav ul li.website-name a {
   }
   .description h2 {
     font-size: 1.7em;
+  }
+  .description.fadingin h2 {
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+    -webkit-transform: translateZ(0);
   }
   nav ul {
     margin-top: 1.1em;
