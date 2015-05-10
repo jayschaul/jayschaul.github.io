@@ -1,0 +1,55 @@
+html, body {
+  background: #f3dfd8;
+}
+
+.title {
+  margin-top: 240px;
+  margin-bottom: 300px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.title h1 {
+  font-size: 52px;
+}
+
+.title p {
+  color: rgba(0,0,0,0.5);
+}
+
+.hero-image {
+  background: white;
+  display: block;
+  margin: auto;
+}
+
+#content-wrapper .dots img {
+  max-width: 970px;
+  margin-bottom: 300px;
+}
+
+#content-wrapper .hero-image img {
+  max-width: 900px;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+#content-wrapper .applications img {
+  width: 50%;
+  float: left;
+}
+
+#content-wrapper .heart img {
+  width: 40px;
+  height: 80px;
+}
+
+.applications {
+  display: inline-block;
+}
+
+.title.sign {
+  margin-top: 80px;
+  margin-bottom: 200px;
+  display: inline-block;
+}
