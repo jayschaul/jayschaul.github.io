@@ -269,6 +269,7 @@ ol.notes li.note blockquote a {
 .pagination {
   text-align: center;
   list-style-type: none;
+  padding-bottom: 10em;
 }
 
 ul.pagination li {
