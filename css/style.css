@@ -134,6 +134,18 @@ ul li {
   -webkit-transform: translateZ(0);
 }
 
+.image {
+  position: relative;
+}
+
+#marks .image-caption {
+  bottom: 0px;
+}
+
+#marks .image-caption a  {
+  color: #b4b7bd;
+}
+
 .video-bg video {
   width: 100%;
   max-width: 287px;
