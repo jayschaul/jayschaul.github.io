@@ -162,6 +162,10 @@ ul li {
   background-color: black;
 }
 
+#extra-links.project {
+  border-bottom: none;
+}
+
 p.image-caption {
   position: absolute;
   padding: 10px 18px;
