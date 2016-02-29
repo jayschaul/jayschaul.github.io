@@ -38,10 +38,6 @@ html, body {
   padding-bottom: 13em;
 }
 
-.selected-works {
-  margin-bottom: 50px;
-}
-
 a, a:visited, a:hover {
   color: black;
 }
@@ -138,6 +134,12 @@ ul li {
   -webkit-transform: translateZ(0);
 }
 
+.video-bg video {
+  width: 100%;
+  max-width: 287px;
+  height: auto;
+}
+
 .video-bg {
   width: 100%;
   height: 857px;
@@ -147,7 +149,8 @@ ul li {
 }
 
 .video-bg.iphone-5 {
-  background: url("../images/iphone-hand-5.jpg");
+  background: url("../images/iphone-hand-5.jpg") no-repeat center center;
+  background-size: cover;
 }
 
 .video-bg video {
@@ -265,6 +268,7 @@ p.image-caption a {
   nav ul {
     margin-top: 1.1em;
   }
+
   .description.fadingin h2 {
     -webkit-transition-delay: 0s;
     -moz-transition-delay: 0s;
@@ -289,7 +293,7 @@ p.image-caption a {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
   .right {
     width: 100%;
   }
@@ -302,8 +306,12 @@ p.image-caption a {
   .description {
     margin-top: 10em;
   }
+  .video-bg video {
+    max-width: 240px;
+  }
   .description h2 {
-    font-size: 1.7em;
+    font-size: 1.9em;
+    margin-top: 52%;
   }
   .description.fadingin h2 {
     -webkit-transition-delay: 0s;
@@ -311,6 +319,13 @@ p.image-caption a {
     -o-transition-delay: 0s;
     transition-delay: 0s;
     -webkit-transform: translateZ(0);
+  }
+  .video-bg video {
+    width: 238;
+    height: 425;
+  }
+  .video-bg {
+    height: 716px;;
   }
   nav ul {
     margin-top: 1.1em;
@@ -325,6 +340,13 @@ p.image-caption a {
 (min-resolution: 192dpi) { 
   .video-bg {
     background: url("../images/iphone-hand@2x.jpg") no-repeat center center;
+    background-size: cover;
+  }
+
+  .video-bg.iphone-5 {
+    background: url("../images/iphone-hand-5@2x.jpg") no-repeat center center;
+    background-size: cover;
+  }
 }
 
 
