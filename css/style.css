@@ -25,7 +25,7 @@ html, body {
 }
 
 #content-wrapper img {
-  max-width: 700px;
+  /*max-width: 700px;*/
   width: 100%;
 }
 
@@ -36,6 +36,10 @@ html, body {
 
 #projects {
   padding-bottom: 13em;
+}
+
+.selected-works {
+  margin-bottom: 50px;
 }
 
 a, a:visited, a:hover {
@@ -86,8 +90,41 @@ nav ul li.website-name a {
   font-weight: 600;
 }
 
-.description {
-  margin-top: 28%;
+.left {
+  width: 50%;
+  float: left;
+  padding-right: 2px;
+}
+
+.right {
+  width: 50%;
+  float: right;
+  padding-left: 2px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+ul.left.type {
+  padding: 0;
+  margin-bottom: 50px;
+  margin-top: 14px;
+}
+
+ul li {
+  list-style-type: none;
+  color: #96989d;
+}
+
+.right.description {
+  margin-bottom: 50px;
+  margin-top: 14px;
+}
+
+.right.caption {
+  margin-bottom: 28px;
+  margin-top: 20px;
 }
 
 .description h2 {
@@ -100,12 +137,46 @@ nav ul li.website-name a {
   -webkit-transform: translateZ(0);
 }
 
+.video-bg {
+  width: 100%;
+  height: 857px;
+  display: inline-block;
+  background: url("../images/iphone-hand.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.video-bg.iphone-5 {
+  background: url("../images/iphone-hand-5.jpg");
+}
+
+.video-bg video {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: black;
+}
+
+p.image-caption {
+  position: absolute;
+  padding: 10px 18px;
+  color: white;
+}
+
+p.image-caption a {
+  color: white;
+}
+
 .projects-wrapper {
   margin-top: 14.4em;
 }
 
 .project {
-  padding-top: 4em;
+  padding-bottom: 200px;
+  padding-top: 70px;
+  border-bottom: 1px solid #eee;
+  display: inline-block;
 }
 
 .project:first-child {
@@ -165,6 +236,7 @@ nav ul li.website-name a {
 
 .description.fadingin h2 {
   color: black;
+  margin-top: 30%;
   -webkit-transition-delay: 0.3s;
   -moz-transition-delay: 0.3s;
   -o-transition-delay: 0.3s;
@@ -174,6 +246,14 @@ nav ul li.website-name a {
 
 
 @media screen and (max-width: 600px) {
+   .right {
+    width: 100%;
+    padding: 0;
+  }
+  .left {
+    width: 100%;
+    padding: 0;
+  }
   li.website-name {
     width:100%;
     padding-bottom: 1em;
@@ -184,18 +264,21 @@ nav ul li.website-name a {
   nav ul {
     margin-top: 1.1em;
   }
-  .description {
-    margin-top: 50%;
-  }
   .description.fadingin h2 {
+    margin-top: 50%;
     -webkit-transition-delay: 0s;
     -moz-transition-delay: 0s;
     -o-transition-delay: 0s;
     transition-delay: 0s;
     -webkit-transform: translateZ(0);
   }
+
+  #projects {
+    padding-bottom: 0em; 
+  }
+
   .projects-wrapper {
-    margin-top: 6em;
+    margin-top: 9em;
   }
   #footer {
     position: relative;
@@ -207,6 +290,15 @@ nav ul li.website-name a {
 }
 
 @media screen and (max-width: 320px) {
+  .right {
+    width: 100%;
+  }
+  .left {
+    width: 100%;
+  }
+  .third {
+    width: 100%;
+  }
   .description {
     margin-top: 10em;
   }
@@ -226,6 +318,13 @@ nav ul li.website-name a {
   nav ul li {
     font-size: 0.98em; 
   }
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+  .video-bg {
+    background: url("../images/iphone-hand@2x.jpg") no-repeat center center;
 }
 
 
