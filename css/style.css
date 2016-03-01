@@ -59,6 +59,7 @@ p {
 nav {
   position: fixed;
   top: 0;
+  z-index: 1;
 }
 
 nav .navigation {
@@ -132,10 +133,6 @@ ul li {
   -o-transition:color .5s ease-in;
   -webkit-transition:color .5s ease-in;
   -webkit-transform: translateZ(0);
-}
-
-.image {
-  position: relative;
 }
 
 #marks .image-caption {
