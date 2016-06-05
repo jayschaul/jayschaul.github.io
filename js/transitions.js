@@ -1,7 +1,7 @@
-
 window.onload = function() {
-    document.getElementById('subtitle').className = 'description fadingin';
-  };
+  document.getElementById('subtitle').className = 'description fadingin';
+  document.getElementById('projects').className = 'projects-wrapper fadingin';
+};
 
 // function isMobile() {
 // return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
@@ -17,7 +17,7 @@ window.onload = function() {
   //   },125);
   // });
 
-  
+
 
   // function fadeProjects() {
   //   var projects = $('#projects');

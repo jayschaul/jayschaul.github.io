@@ -29,14 +29,8 @@ body {
 }
 
 #content-wrapper img {
-  /*max-width: 700px;*/
   width: 100%;
 }
-
-/*#subtitle
-{
-  display: none;
-}*/
 
 #projects {
   padding-bottom: 13em;
@@ -66,10 +60,6 @@ nav {
   z-index: 1;
 }
 
-nav .navigation {
-  float: left;
-}
-
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -77,11 +67,8 @@ nav ul {
 }
 
 nav ul li {
-  padding-right: 1em;
+  margin-right: 1em;
   float: left;
-}
-
-nav ul li a {
   font-size: 1em;
   color: black;
 }
@@ -129,13 +116,23 @@ ul li {
 }
 
 .description h2 {
-  margin-top: 50%;
+  margin-top: 35%;
+  margin-bottom: 35%;
   font-size: 2em;
   font-weight: 400;
   color: white;
   -moz-transition:color .5s ease-in;
   -o-transition:color .5s ease-in;
   -webkit-transition:color .5s ease-in;
+  -webkit-transform: translateZ(0);
+}
+
+.description.fadingin h2 {
+  color: black;
+  -webkit-transition-delay: 0.3s;
+  -moz-transition-delay: 0.3s;
+  -o-transition-delay: 0.3s;
+  transition-delay: 0.3s;
   -webkit-transform: translateZ(0);
 }
 
@@ -190,7 +187,20 @@ p.image-caption a {
 }
 
 .projects-wrapper {
-  margin-top: 14.4em;
+  opacity: 0;
+  -moz-transition:opacity .5s ease-in;
+  -o-transition:opacity .5s ease-in;
+  -webkit-transition:opacity .5s ease-in;
+  -webkit-transform: translateZ(0);
+}
+
+.projects-wrapper.fadingin {
+  opacity: 1;
+  -webkit-transition-delay: 0.5s;
+  -moz-transition-delay: 0.5s;
+  -o-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+  -webkit-transform: translateZ(0);
 }
 
 .project {
@@ -222,7 +232,7 @@ p.image-caption a {
 
 #footer li {
   float: left;
-  padding-right: 1em;
+  margin-right: 1em;
 }
 
 #footer li:last-child {
@@ -236,34 +246,6 @@ p.image-caption a {
 #content-wrapper.footer-inside {
   margin:0 auto;
   padding: 3.4em 1em;
-}
-
-/*@media screen and (max-width: 600px) {
-
-  .description {
-    margin-top: 50%;
-  }
-
-  #projects {
-    padding-bottom: 9em;
-  }
-
-  .projects-wrapper {
-    margin-top: 30%;
-  }
-
-}
-*/
-
-.description.fadingin h2 {
-  color: black;
-  margin-top: 35%;
-  margin-bottom: 35%;
-  -webkit-transition-delay: 0.3s;
-  -moz-transition-delay: 0.3s;
-  -o-transition-delay: 0.3s;
-  transition-delay: 0.3s;
-  -webkit-transform: translateZ(0);
 }
 
 
