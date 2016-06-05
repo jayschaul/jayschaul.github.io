@@ -311,6 +311,12 @@ p.image-caption a {
   }
 }
 
+@media screen and (max-width: 414px) {
+  .description {
+    margin-top: 16em;
+  }
+}
+
 @media screen and (max-width: 375px) {
   body {
     padding: 0;
@@ -325,7 +331,7 @@ p.image-caption a {
     width: 100%;
   }
   .description {
-    margin-top: 10em;
+    margin-top: 14em;
   }
   .video-bg video {
     max-width: 240px;
