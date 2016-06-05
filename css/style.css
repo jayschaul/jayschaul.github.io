@@ -337,8 +337,7 @@ p.image-caption a {
     max-width: 240px;
   }
   .description h2 {
-    font-size: 1.9em;
-    margin-top: 52%;
+    font-size: 2em;
   }
   .description.fadingin h2 {
     -webkit-transition-delay: 0s;
