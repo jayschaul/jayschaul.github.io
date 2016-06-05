@@ -127,7 +127,24 @@ ul li {
   -webkit-transform: translateZ(0);
 }
 
+.description a {
+  color: white;
+  -moz-transition:color .5s ease-in;
+  -o-transition:color .5s ease-in;
+  -webkit-transition:color .5s ease-in;
+  -webkit-transform: translateZ(0);
+}
+
 .description.fadingin h2 {
+  color: black;
+  -webkit-transition-delay: 0.3s;
+  -moz-transition-delay: 0.3s;
+  -o-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+  -webkit-transform: translateZ(0);
+}
+
+.description.fadingin a {
   color: black;
   -webkit-transition-delay: 0.3s;
   -moz-transition-delay: 0.3s;
