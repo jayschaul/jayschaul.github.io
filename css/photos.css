@@ -21,7 +21,11 @@ p, a, h3 {
   color: white;
 }
 
-a:hover {
+nav a:hover {
+  color: white;
+}
+
+footer a:hover {
   color: #555;
 }
 
