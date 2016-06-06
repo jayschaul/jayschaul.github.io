@@ -215,4 +215,27 @@ footer {
     margin-top: 70%;
     margin-bottom:60%;
   }
+  #content-wrapper .images img:nth-child(1) {
+    width: 60%;
+    border: 30px dashed white;
+  }
+  #content-wrapper .images img:nth-child(4) {
+    width: 80%;
+    border: 40px solid white;
+  }
+  #content-wrapper .images img:nth-child(8) {
+    width: 52.9%;
+    border: 30px dotted white;
+  }
+  #content-wrapper .images img:nth-child(14) {
+    width: 60%;
+    margin-left: 40%;
+  }
+  #content-wrapper .images img:nth-child(18) {
+    border: 40px dashed white;
+  }
+  #content-wrapper .images img:nth-child(21) {
+    width: 80%;
+    border: 44px solid white;
+  }
 }
