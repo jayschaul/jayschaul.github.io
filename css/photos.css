@@ -21,6 +21,37 @@ p, a, h3 {
   color: white;
 }
 
+#page-title.header {
+  opacity: 0;
+  -moz-transition:opacity .5s ease-in;
+  -o-transition:opacity .5s ease-in;
+  -webkit-transition:opacity .5s ease-in;
+  -webkit-transform: translateZ(0);
+}
+
+#page-title.header.fadingin {
+  opacity: 1;
+  -webkit-transform: translateZ(0);
+}
+
+#image-container.images {
+  opacity: 0;
+  -moz-transition: 1.4s ease-out;
+  -o-transition: 1.4s ease-out;
+  -webkit-transition: 1.4s ease-out;
+  -webkit-transform: translateZ(0);
+  transform: translateY(60px);
+}
+
+#image-container.images.fadingin {
+  opacity: 1;
+  -webkit-transition-delay: 1s;
+  -moz-transition-delay: 1s;
+  -o-transition-delay: 1s;
+  transition-delay: 1s;
+  -webkit-transform: translateZ(0);
+}
+
 #content-wrapper {
   height: auto;
 }

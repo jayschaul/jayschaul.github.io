@@ -7,6 +7,8 @@
   <script src="//use.typekit.net/pas8kyd.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
 
+  <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+
   <link rel="icon" type="image/png" href="/favicon.ico">
 
   <meta name="keywords" content="jay schaul, timeinnyc, design">
@@ -19,6 +21,8 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/photos.css">
+
+  <script type="text/javascript" src="js/transitions-photos.js"></script>
 
   <script type="text/javascript">
 
@@ -46,8 +50,10 @@
         </li>
       </ul>
     </nav>
-    <h1>Selected Photographs</h1>
-    <div class="images">
+    <div class="header" id="page-title">
+      <h1>Select Photographs</h1>
+    </div>
+    <div id="image-container" class="images">
       <img class="left" src="/photographs/floral.jpg">
       <img class="right" src="/photographs/brandon.jpg">
       <img src="/photographs/french-corner.jpg">
