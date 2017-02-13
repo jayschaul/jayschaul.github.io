@@ -173,23 +173,6 @@ p.image-caption a {
   color: white;
 }
 
-.projects-wrapper {
-  opacity: 0;
-  -moz-transition:opacity .5s ease-in;
-  -o-transition:opacity .5s ease-in;
-  -webkit-transition:opacity .5s ease-in;
-  -webkit-transform: translateZ(0);
-}
-
-.projects-wrapper.fadingin {
-  opacity: 1;
-  -webkit-transition-delay: 0.5s;
-  -moz-transition-delay: 0.5s;
-  -o-transition-delay: 0.5s;
-  transition-delay: 0.5s;
-  -webkit-transform: translateZ(0);
-}
-
 .project {
   padding-bottom: 200px;
   padding-top: 70px;
