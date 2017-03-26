@@ -20,6 +20,10 @@ html, body {
   display: none;
 }
 
+.follow-teaser {
+  display: none;
+}
+
 #content-wrapper {
   padding: 1em;
   margin: 0 auto;
