@@ -16,6 +16,10 @@ html, body {
   clear: both;
 }
 
+.sticky-lrec-wrapper {
+  display: none;
+}
+
 #content-wrapper {
   padding: 1em;
   margin: 0 auto;
@@ -28,7 +32,7 @@ html, body {
   width: 100%;
 }
 
-#subtitle, 
+#subtitle,
 #projects
 {
   display: none;
@@ -44,7 +48,7 @@ a.active {
 
 h1 {
   margin-bottom: 0em;
-  
+
 }
 
 p {
@@ -215,11 +219,11 @@ ol.notes li.note img.avatar {
 }
 
 ol.notes li.note span.action {
-    
+
 }
 
 ol.notes li.note .answer_content {
-   
+
 }
 
 ol.notes li.note blockquote {
@@ -335,7 +339,7 @@ ul.pagination li {
     width:100%;
     padding-bottom: 1em;
   }
-  nav { 
+  nav {
     position: relative;
   }
   nav ul {
@@ -348,8 +352,8 @@ ul.pagination li {
     padding: 0px;
     padding-bottom: 6em;
   }
-  #subtitle, 
-  #projects 
+  #subtitle,
+  #projects
   {
     display: block;
   }
@@ -372,11 +376,6 @@ ul.pagination li {
     padding-bottom: 6em;
   }
   nav ul li {
-    font-size: 0.98em; 
+    font-size: 0.98em;
   }
 }
-
-
-
-
-
