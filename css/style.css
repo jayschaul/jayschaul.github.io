@@ -9,8 +9,9 @@ html, body {
   background-color: #FFFFFF;
 }
 
-body {
-
+body.home {
+  background:  url("/images/art/background.gif") no-repeat center center fixed;
+  background-size: cover;
 }
 
 body.dark {
