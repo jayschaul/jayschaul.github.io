@@ -10,7 +10,16 @@ html, body {
 }
 
 body {
-  padding: 0px 5%;
+
+}
+
+body.dark {
+  background-color: black;
+  color: white;
+}
+
+.dark h1,.dark h2,.dark h3,.dark h4,.dark h5,.dark h6,.dark a,.dark p,.dark a:visited,.dark a:hover {
+  color: white;
 }
 
 .clearfix {
@@ -21,11 +30,25 @@ body {
   clear: both;
 }
 
+.center {
+  width: 300px;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -150px;
+  margin-top: -50px;
+  z-index: 2;
+}
+
+.home  a {
+  text-decoration: none;
+}
+
 #content-wrapper {
-  padding: 1em;
   margin: 0 auto;
-  height: 100%;
   max-width: 1000px;
+  padding: 0px 5%;
 }
 
 #content-wrapper img {
@@ -34,6 +57,7 @@ body {
 
 #projects {
   padding-bottom: 13em;
+  display: inline-block;
 }
 
 a, a:visited, a:hover {
@@ -78,6 +102,10 @@ nav ul li.website-name a {
   font-weight: 600;
 }
 
+mark {
+  background: #ffd8b7;
+}
+
 .left {
   width: 50%;
   float: left;
@@ -110,17 +138,67 @@ ul li {
   margin-top: 14px;
 }
 
+.right.description.title {
+  right: 0;
+  z-index: 1000;
+  font-weight: 400;
+}
+
+.header-bar {
+  width: 100%;
+  height: 63px;
+  z-index: 999;
+  padding-top: 2.9em;
+}
+
+.art .header-bar.project {
+
+}
+
+.header-bar h2, .header-bar p {
+  margin-top: 0;
+}
+
+.header-bar h2 {
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 1px;
+  margin-top: 6px;
+}
+
+.header-bar.light h2 {
+  color: black;
+}
+
+.header-bar h2 a {
+  color: #96989d;
+  text-decoration: none;
+}
+
+.header-bar p {
+  margin-top: 0.4em;
+}
+
+.header-bar p a {
+  color: #96989d;
+}
+
+span.availability {
+  margin-top: 2.9em;
+}
+
+.availability.available {
+  color: rgb(67, 186, 58);
+}
+
 .right.caption {
   margin-bottom: 28px;
   margin-top: 20px;
 }
 
 .description h2 {
-  margin-top: 35%;
-  margin-bottom: 35%;
   font-size: 2em;
   font-weight: 400;
-  color: black;
 }
 
 #marks .image-caption {
@@ -180,29 +258,23 @@ p.image-caption a {
   display: inline-block;
 }
 
-.project:first-child {
-  padding-top: 0em;
+#projects .project:first-child {
+  padding-top: 0;
 }
 
 #footer {
-  position: fixed;
-  bottom: 0px;
-  display: block;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  color: #96989d;
+  padding-bottom: 6em;
 }
 
 #footer ul{
   list-style: none;
   padding: 0;
   margin: 0;
-  float: right;
 }
 
 #footer li {
-  float: left;
-  margin-right: 1em;
+  margin-bottom: 1em;
 }
 
 #footer li:last-child {
@@ -210,12 +282,38 @@ p.image-caption a {
 }
 
 #footer li a {
-  color: #96989d;;
+  color: #96989d;
 }
 
 #content-wrapper.footer-inside {
   margin:0 auto;
-  padding: 3.4em 1em;
+  padding: 3.4em 0em;
+}
+
+.projects-wrapper {
+  margin-top: 10em;
+}
+
+.art .image {
+  padding-bottom: 24em;
+}
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    /*background: url(polina.jpg) no-repeat;*/
+    background-size: cover;
+    z-index: 1;
 }
 
 
@@ -237,6 +335,10 @@ p.image-caption a {
   }
   nav ul {
     margin-top: 1.1em;
+  }
+
+  .header-bar h2 {
+    margin-bottom: 20px;
   }
 
   .description.fadingin h2 {
@@ -264,9 +366,7 @@ p.image-caption a {
 }
 
 @media screen and (max-width: 414px) {
-  .description {
-    margin-top: 16em;
-  }
+
 }
 
 @media screen and (max-width: 375px) {
@@ -282,9 +382,7 @@ p.image-caption a {
   .third {
     width: 100%;
   }
-  .description {
-    margin-top: 14em;
-  }
+
   .video-bg video {
     max-width: 240px;
   }
