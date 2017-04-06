@@ -31,6 +31,10 @@ body.dark {
   clear: both;
 }
 
+.clear {
+  clear: both;
+}
+
 .center {
   width: 300px;
   height: 50px;
@@ -77,6 +81,20 @@ h2 {
 p {
   font-size: 1em;
   margin-top: 0.5em;
+}
+
+p.caption {
+  font-size: 0.8em;
+  color: #96989d;
+  text-align: center;
+}
+
+p.caption a {
+  color: #96989d;
+}
+
+.art .image.series {
+  padding-bottom: 0;
 }
 
 nav {
