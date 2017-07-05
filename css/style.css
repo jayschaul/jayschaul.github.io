@@ -35,6 +35,10 @@ body.dark {
   clear: both;
 }
 
+.spacer {
+  padding: 50px 0px 20px 0px;
+}
+
 .center {
   width: 330px;
   height: 46px;
@@ -54,6 +58,7 @@ body.dark {
 
 #content-wrapper img {
   width: 100%;
+  /*display: block;*/
 }
 
 #projects {
@@ -170,10 +175,6 @@ ul li {
   padding-top: 2.9em;
 }
 
-.art .header-bar.project {
-
-}
-
 .header-bar h2, .header-bar p {
   margin-top: 0;
 }
@@ -198,12 +199,60 @@ ul li {
   margin-top: 0.4em;
 }
 
+.embeds {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.third {
+  width: 33.3%;
+  float: left;
+}
+
+.embed {
+  position: relative;
+  padding-bottom: 172%;
+  height: auto;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed iframe, .embed object, .embed embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.embed-full {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: auto;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-full iframe, .embed-full object, .embed-full embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .header-bar p a {
   color: #96989d;
 }
 
 span.availability {
   margin-top: 2.9em;
+}
+
+.sub-header {
+  padding: 50px 0px 30px 0px;
+  display: flex;
 }
 
 .availability.available {
@@ -240,6 +289,53 @@ span.availability {
   display: inline-block;
   background: url("../images/iphone-hand.jpg") no-repeat center center;
   background-size: cover;
+  position: relative;
+}
+
+.macbook-video-bg video {
+  width: 100%;
+  max-width: 553px;
+  height: auto;
+}
+
+.macbook-video-bg {
+  width: 100%;
+  height: 650px;
+  display: inline-block;
+  background: url("../images/universe/macbook.jpg") no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+
+.macbook-video-bg.black video {
+  max-width: 593px;
+  background-color: black;
+}
+
+.macbook-video-bg.black {
+  background: url("../images/universe/macbook-black.jpg") no-repeat center center;
+}
+
+.macbook-video-bg video {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 48.5%;
+  transform: translateY(-50%);
+  background-color: white;
+}
+
+.video-bg.no-hand {
+  width: 100%;
+  height: 857px;
+  display: inline-block;
+  background: url("../images/iphone-noHand.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.video-bg.w-right-hand {
+  background: url("../images/iphone-hand-w-left.jpg") no-repeat center center;
+  background-size: cover;
 }
 
 .video-bg.iphone-5 {
@@ -254,6 +350,13 @@ span.availability {
   top: 50%;
   transform: translateY(-50%);
   background-color: black;
+}
+
+.video-bg .image-caption, .video-bg .image-caption a {
+  bottom: 0;
+  color: #bababa;
+  font-size: 12px;
+  right: 10px;
 }
 
 #extra-links.project {
@@ -435,6 +538,26 @@ video#bgvid {
 (min-resolution: 192dpi) {
   .video-bg {
     background: url("../images/iphone-hand@2x.jpg") no-repeat center center;
+    background-size: cover;
+  }
+
+  .video-bg.w-right-hand {
+    background: url("../images/iphone-hand-w-left@2x.jpg") no-repeat center center;
+    background-size: cover;
+  }
+
+  .macbook-video-bg {
+    background: url("../images/universe/macbook@2x.jpg") no-repeat center center;
+    background-size: cover;
+  }
+
+  .macbook-video-bg.black {
+    background: url("../images/universe/macbook-black@2x.jpg") no-repeat center center;
+    background-size: cover;
+  }
+
+  .video-bg.no-hand {
+    background: url("../images/iphone-noHand@2x.jpg") no-repeat center center;
     background-size: cover;
   }
 
