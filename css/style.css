@@ -447,6 +447,7 @@ video#bgvid {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .creatures .creatures-title {
@@ -494,7 +495,8 @@ video#bgvid {
 
 .creatures-title h1 {
   font-size: 4em;
-  margin-bottom: 0;
+  margin-bottom: 20px;
+  line-height: 1em;
 }
 
 .creatures-title p {
