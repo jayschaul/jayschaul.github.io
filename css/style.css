@@ -518,6 +518,18 @@ video#bgvid {
   margin: 2px 0 3px 0;
 }
 
+.dog-container {
+  margin-top: 60px;
+  background-color: rgb(235, 235, 235);
+  border-radius: 10px;
+  padding: 32px;
+}
+
+.two-column {
+  display: flex;
+  flex-direction: column;
+}
+
 @media screen and (max-width: 1024px) {
   .macbook-video-bg {
     height: 710px;
