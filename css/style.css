@@ -518,18 +518,6 @@ video#bgvid {
   margin: 2px 0 3px 0;
 }
 
-.dog-container {
-  margin-top: 60px;
-  background-color: rgb(235, 235, 235);
-  border-radius: 10px;
-  padding: 32px;
-}
-
-.two-column {
-  display: flex;
-  flex-direction: column;
-}
-
 @media screen and (max-width: 1024px) {
   .macbook-video-bg {
     height: 710px;
@@ -744,4 +732,40 @@ video#bgvid {
     background: url("../images/iphone-hand-5@2x.jpg") no-repeat center center;
     background-size: cover;
   }
+}
+
+.dog-container {
+  margin-top: 60px;
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 24px;
+  padding: 32px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.dog-text {
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 16px;
+}
+
+.dog-text p {
+  padding: 0;
+  margin: 0;
+}
+
+#content-wrapper img.dog-icon {
+  height: 40px;
+  width: auto;
+}
+
+#content-wrapper .dog-container .app-store img {
+  height: 48px;
+  width: auto;
 }
