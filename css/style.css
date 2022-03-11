@@ -265,6 +265,10 @@ span.availability {
   color: rgb(67, 186, 58);
 }
 
+.availability.unavailable {
+  color: rgb(102, 157, 223);
+}
+
 .right.caption {
   margin-bottom: 28px;
   margin-top: 20px;
