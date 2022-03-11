@@ -599,10 +599,7 @@ video#bgvid {
   }
 
   .video-bg .image-caption, .video-bg .image-caption a {
-    text-align: center;
     width: 100%;
-    color: white;
-    text-shadow: 0px 0px 30px rgba(0,0,0,0.6);
     left: 0;
   }
 
