@@ -522,6 +522,11 @@ video#bgvid {
   margin: 2px 0 3px 0;
 }
 
+.intro h2 {
+  font-size: 2.5em;
+  margin-top: 3em;
+}
+
 @media screen and (max-width: 1024px) {
   .macbook-video-bg {
     height: 710px;
@@ -621,10 +626,14 @@ video#bgvid {
   .embed-container {
     padding-bottom: 100% !important;
   }
+
+  .intro h2 {
+    font-size: 1.8em;
+    margin-top: 3em;
+  }
 }
 
 @media screen and (max-width: 414px) {
-
 }
 
 @media screen and (max-width: 375px) {
